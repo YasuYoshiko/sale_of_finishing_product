@@ -1,7 +1,10 @@
-﻿namespace sale_of_finishing_product.ViewModels
+﻿using Avalonia.Controls;
+using CommunityToolkit.Mvvm.ComponentModel;
+
+namespace sale_of_finishing_product.ViewModels
 {
     public partial class MainWindowViewModel : ViewModelBase
     {
-        public string Greeting { get; } = "Welcome to Avalonia!";
+        [ObservableProperty] UserControl page = new NewUserView();
     }
 }

@@ -24,3 +24,6 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/ГудковаАА/source/repos/sale_of_finishing_product/sale_of_finishing_product/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/ГудковаАА/source/repos/sale_of_finishing_product/sale_of_finishing_product/Views/NewUserView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

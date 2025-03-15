@@ -15,6 +15,8 @@
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+	<Grid ColumnDefinitions="200, *, 200" RowDefinitions="50, *, 50">
+		<ContentControl Content="{Binding Page}" Grid.Column="1" Grid.Row="1" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+	</Grid>
 
 </Window>
